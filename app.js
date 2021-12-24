@@ -93,7 +93,7 @@ students.map(data => {
 
 const phonebooks = document.querySelector('.phonebook');
 
-phonenumber.map(data => {
+phone.map(data => {
 
     phonebooks.innerHTML += `
     
@@ -113,7 +113,7 @@ phonenumber.map(data => {
 
 const phonedata = document.querySelector('.phonetable table tbody');
 
-phonenumber.map(data => {
+phone.map(data => {
 
     phonedata.innerHTML += `
     
